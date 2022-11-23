@@ -1,0 +1,25 @@
+img {
+    width: 35px;
+}
+
+.headerMaps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.headerMaps_logo img, .headerMaps_usuario img {
+    width: 50px;
+}
+
+.headerMaps_title {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+#map {
+    height: 90vh;
+    margin: 20px;
+  }

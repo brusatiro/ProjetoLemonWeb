@@ -1,0 +1,94 @@
+img {
+    width: 35px;
+}
+
+.headerAcoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.headerAcoes_opcoesMenu {
+    display: flex;
+}
+
+.headerAcoes_logo img, .headerAcoes_usuario img {
+    width: 50px;
+}
+
+.headerAcoes_opcoesMenu_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.headerAcoes_opcoesMenu_div p {
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+#dicas p {
+    color: #98FFAE;
+}
+
+/* CONTAINER */
+
+.heading h1 {
+    color: #ffffff;
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.containerDicas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerDicas_option {
+    display: flex;
+    margin: 40px;
+    background-color: #98FFAE;
+    padding: 30px 40px 30px 30px;
+    border-radius: 20px;
+    width: 330px;
+    height: 80px;
+}
+
+.containerDicas_option img {
+    margin-right: 25px;
+    width: 70px;
+}
+
+.containerDicas_option p {
+    color: #188C6A;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.containerDicas_option button {
+    background-color: #2ABF8B;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    box-shadow: 1px 1px 4px #00000065;
+}
+
+.containerDicas_option button:hover {
+    box-shadow: 2px 2px 2px #188C6A;
+}
+
+.containerDicas_option button:active {
+    box-shadow: inset 2px 2px 2px #188C6A;
+}

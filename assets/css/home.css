@@ -1,0 +1,69 @@
+.container {
+    text-align: center;
+}
+
+.container_heading, .footerHome {
+    color: #ffffff;
+}
+
+.container_heading_one {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.container_heading_two {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.container_options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_options_colab, .container_options_admin {
+    background-color: #ffffff;
+    color: #18A279;
+    margin: 10px;
+    padding: 15px 25px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.6);
+    width: 7rem;
+    cursor: pointer;
+}
+
+.container_options_colab:hover, .container_options_admin:hover {
+    box-shadow: 3px 3px 5px rgba(9, 100, 70, 0.6);
+}
+
+.container_options_colab:active, .container_options_admin:active {
+    box-shadow: inset 5px 5px 4px rgba(9, 100, 70, 0.6);
+}
+
+.container_options_text {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 0.9rem;
+}
+
+.footerHome {
+    margin: 70px 0 50px 0;
+}
+
+.footerHome_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerHome_text p {
+    padding: 0 20px;
+}
+
+.footerHome_copy {
+    text-align: center;
+    margin-top: 25px;
+}
